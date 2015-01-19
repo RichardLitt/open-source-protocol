@@ -22,6 +22,13 @@ Other tags that can be used:
 
 * `os:issue` - This links to a place to file issues for the website. Example: `<meta property="os:issue" type="https://github.com/RichardLitt/open-source-metatags/issues" />` 
 
+###Shields
+
+For use in the repository, to show your compliance and spread the word:
+
+ * https://img.shields.io/badge/OSMT-failing-green.svg
+ * https://img.shields.io/badge/OSMT-passing-green.svg
+
 ###Contribute
 
 This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-metatags/issues) to discuss how the Open Source Metatags can be improved. 
