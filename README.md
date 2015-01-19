@@ -41,4 +41,4 @@ For use in the repository, to show your compliance and spread the word:
 
 ###Contribute
 
-This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-metatags/issues) to discuss how the Open Source Metatags can be improved. 
+This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-metatags/issues) to discuss how the Open Source Metatags can be improved. PRs are encouraged!
