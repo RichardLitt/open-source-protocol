@@ -12,15 +12,15 @@ This is not a place to link to code that is described on your website; rather, t
 ###Example
 
 ```html
-<meta property="os:src" type="https://github.com/RichardLitt/open-source-metatags" />
-<meta property="os:git" type="git@github.com:RichardLitt/open-source-metatags.git" />
+<meta property="os:src" content="https://github.com/RichardLitt/open-source-metatags" />
+<meta property="os:git" content="git@github.com:RichardLitt/open-source-metatags.git" />
 ```
 
 ###Optional tags
 
 Other tags that can be used:
 
-* `os:issue` - This links to a place to file issues for the website. Example: `<meta property="os:issue" type="https://github.com/RichardLitt/open-source-metatags/issues" />` 
+* `os:issue` - This links to a place to file issues for the website. Example: `<meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" />` 
 
 ###Shields
 
