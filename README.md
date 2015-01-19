@@ -26,8 +26,8 @@ Other tags that can be used:
 
 For use in the repository, to show your compliance and spread the word:
 
- * ![passing](https://img.shields.io/badge/OSMT-passing-green.svg) https://img.shields.io/badge/OSMT-passing-green.svg
- * ![failing](https://img.shields.io/badge/OSMT-failing-green.svg) https://img.shields.io/badge/OSMT-failing-green.svg
+![passing](https://img.shields.io/badge/OSMT-passing-green.svg) https://img.shields.io/badge/OSMT-passing-green.svg  
+![failing](https://img.shields.io/badge/OSMT-failing-red.svg) https://img.shields.io/badge/OSMT-failing-red.svg
 
 ###Contribute
 
