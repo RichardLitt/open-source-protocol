@@ -4,94 +4,72 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Open-source-metatags by RichardLitt</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Eat your own damn dogfood -->
+    <meta property="os:src" content="https://github.com/RichardLitt/open-source-metatags" />
+    <meta property="os:git" content="git@github.com:RichardLitt/open-source-metatags.git" />
+    <meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" />
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>Open-source-metatags</h1>
-        <p>Open up web development</p>
-
-        <p class="view"><a href="https://github.com/RichardLitt/open-source-metatags">View the Project on GitHub <small>RichardLitt/open-source-metatags</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/RichardLitt/open-source-metatags/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/RichardLitt/open-source-metatags/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/RichardLitt/open-source-metatags">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
         <h1>
-<a id="open-source-metatags" class="anchor" href="#open-source-metatags" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open Source Metatags</h1>
+        <a id="open-source-metatags" class="anchor" href="#open-source-metatags" aria-hidden="true"><span class="octicon octicon-link"></span></a>Open Source Metatags</h1>
 
-<h3>
-<a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
-
-<p>The Open Source Metatag is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository. </p>
-
-<p>To include an open source metatag in your website, simply add <code>&lt;meta /&gt;</code> tags for the following properties:</p>
-
-<ul>
-<li>
-<code>os:src</code> - This shows the repository web page, for instance on GitHub, Bitbucket, or Sourceforge.</li>
-<li>
-<code>os:git</code> - This is the git repository that they should fork or clone. </li>
-</ul>
-
-<p>This is not a place to link to code that is described on your website; rather, this is for the code <em>for the actual website</em>. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc - or something they want to examine - a cool paralax library, etc - they can quickly see the source code. </p>
-
-<h3>
-<a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
-
-<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">meta</span> <span class="pl-e">property</span>=<span class="pl-s1"><span class="pl-pds">"</span>os:src<span class="pl-pds">"</span></span> <span class="pl-e">content</span>=<span class="pl-s1"><span class="pl-pds">"</span>https://github.com/RichardLitt/open-source-metatags<span class="pl-pds">"</span></span> /&gt;
+        <h3>
+        <a id="about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
+        <p>The Open Source Metatag is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository. </p>
+        <p>To include an open source metatag in your website, simply add <code>&lt;meta /&gt;</code> tags for the following properties:</p>
+        <ul>
+          <li>
+          <code>os:src</code> - This shows the repository web page, for instance on GitHub, Bitbucket, or Sourceforge.</li>
+          <li>
+          <code>os:git</code> - This is the git repository that they should fork or clone. </li>
+        </ul>
+        <p>This is not a place to link to code that is described on your website; rather, this is for the code <em>for the actual website</em>. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc - or something they want to examine - a cool paralax library, etc - they can quickly see the source code. </p>
+        <h3>
+        <a id="example" class="anchor" href="#example" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example</h3>
+        <div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">meta</span> <span class="pl-e">property</span>=<span class="pl-s1"><span class="pl-pds">"</span>os:src<span class="pl-pds">"</span></span> <span class="pl-e">content</span>=<span class="pl-s1"><span class="pl-pds">"</span>https://github.com/RichardLitt/open-source-metatags<span class="pl-pds">"</span></span> /&gt;
 &lt;<span class="pl-ent">meta</span> <span class="pl-e">property</span>=<span class="pl-s1"><span class="pl-pds">"</span>os:git<span class="pl-pds">"</span></span> <span class="pl-e">content</span>=<span class="pl-s1"><span class="pl-pds">"</span>git@github.com:RichardLitt/open-source-metatags.git<span class="pl-pds">"</span></span> /&gt;</pre></div>
+        <h3>
+        <a id="optional-tags" class="anchor" href="#optional-tags" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional tags</h3>
+        <p>Other tags that can be used:</p>
+        <ul>
+          <li>
+          <code>os:issue</code> - This links to a place to file issues for the website. Example: <code>&lt;meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" /&gt;</code> </li>
+        </ul>
+        <h3>
+        <a id="shields" class="anchor" href="#shields" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shields</h3>
+        <p>For use in the repository, to show your compliance and spread the word:</p>
+        <p><img src="https://img.shields.io/badge/OSMT-passing-green.svg" alt="passing"> <a href="https://img.shields.io/badge/OSMT-passing-green.svg">https://img.shields.io/badge/OSMT-passing-green.svg</a><br>
+        <img src="https://img.shields.io/badge/OSMT-failing-red.svg" alt="failing"> <a href="https://img.shields.io/badge/OSMT-failing-red.svg">https://img.shields.io/badge/OSMT-failing-red.svg</a></p>
+        <h3>
+        <a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute</h3>
+        <p>This is a work in progress. Please open an <a href="https://github.com/RichardLitt/open-source-metatags/issues">issue</a> to discuss how the Open Source Metatags can be improved. </p>
 
-<h3>
-<a id="optional-tags" class="anchor" href="#optional-tags" aria-hidden="true"><span class="octicon octicon-link"></span></a>Optional tags</h3>
-
-<p>Other tags that can be used:</p>
-
-<ul>
-<li>
-<code>os:issue</code> - This links to a place to file issues for the website. Example: <code>&lt;meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" /&gt;</code> </li>
-</ul>
-
-<h3>
-<a id="shields" class="anchor" href="#shields" aria-hidden="true"><span class="octicon octicon-link"></span></a>Shields</h3>
-
-<p>For use in the repository, to show your compliance and spread the word:</p>
-
-<p><img src="https://img.shields.io/badge/OSMT-passing-green.svg" alt="passing"> <a href="https://img.shields.io/badge/OSMT-passing-green.svg">https://img.shields.io/badge/OSMT-passing-green.svg</a><br>
-<img src="https://img.shields.io/badge/OSMT-failing-red.svg" alt="failing"> <a href="https://img.shields.io/badge/OSMT-failing-red.svg">https://img.shields.io/badge/OSMT-failing-red.svg</a></p>
-
-<h3>
-<a id="contribute" class="anchor" href="#contribute" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribute</h3>
-
-<p>This is a work in progress. Please open an <a href="https://github.com/RichardLitt/open-source-metatags/issues">issue</a> to discuss how the Open Source Metatags can be improved. </p>
-      </section>
-      <footer>
+        <h3>Source</h3>
+        <a href="https://github.com/RichardLitt/open-source-metatags">View the Project on GitHub</a>
         <p>This project is maintained by <a href="https://github.com/RichardLitt">RichardLitt</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
+
     <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-4124866-28");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-4124866-28");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
 
   </body>
 </html>
