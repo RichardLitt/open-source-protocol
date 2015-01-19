@@ -2,7 +2,9 @@
 
 ###About
 
-The Open Source Metatag is a way of telling developers where to access the source code for your website. To include an open source metatag in your website, simply add `<meta />` tags for the following properties:
+The Open Source Metatag is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository. 
+
+To include an open source metatag in your website, simply add `<meta />` tags for the following properties:
 
 * `os:src` - This shows the repository web page, for instance on GitHub, Bitbucket, or Sourceforge.
 * `os:git` - This is the git repository that they should fork or clone. 
