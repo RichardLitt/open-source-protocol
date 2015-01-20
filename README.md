@@ -12,6 +12,8 @@ To include an open source metatag on your website, simply add `<meta />` tags fo
 
 This is not a place to link to code that is described on your website; rather, this is for the code _for the actual website_. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc. - or something they want to examine - a cool paralax library, etc. - they can quickly fetch the source code.
 
+The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/), which in turn is based on [RDFa](https://en.wikipedia.org/wiki/RDFa). `os` stands for open source.
+
 ###Example
 
 ```html
