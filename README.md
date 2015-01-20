@@ -16,7 +16,7 @@ This is not a place to link to code that is described on your website; rather, t
 
 ```html
 <meta property="os:repo" content="https://github.com/RichardLitt/open-source-metatags" />
-<meta property="os:repo" content="git" />
+<meta property="os:rcs_type" content="git" />
 <meta property="os:src" content="git@github.com:RichardLitt/open-source-metatags.git" />
 ```
 
