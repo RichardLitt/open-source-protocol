@@ -16,9 +16,14 @@ To include an open source metatag on your website, simply add `<meta />` tags fo
 
 This is not a place to link to code that is described on your website; rather, this is for the code _for the actual website_. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc. - or something they want to examine - a cool paralax library, etc. - they can quickly fetch the source code.
 
+The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/), which in turn is based on [RDFa](https://en.wikipedia.org/wiki/RDFa). `os` stands for "open source".
+
+The following `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`: `<link rel="profile" href="https://github.com/RichardLitt/open-source-metatags/" />`. Note: This URI may change if this protocol is accepted enough to warrant a new domain. 
+
 ###Example
 
 ```html
+<link rel="profile" href="https://github.com/RichardLitt/open-source-metatags/" />
 <meta property="os:repo" content="https://github.com/RichardLitt/open-source-metatags" />
 <meta property="os:rcs_type" content="git" />
 <meta property="os:src" content="git@github.com:RichardLitt/open-source-metatags.git" />
