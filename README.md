@@ -25,11 +25,13 @@ This is not a place to link to code that is described on your website; rather, t
 Other tags that can be used:
 
 * `os:issue` - This links to a place to report issues for the website.
+* `os:commit` - This is the commit id that the current site is based upon, as that may not always be the same as HEAD.
 
 ####Examples 
 
 ```html
 <meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" />
+<meta property="os:commit" content="1sda73d" />
 ```
 
 ###Shields
