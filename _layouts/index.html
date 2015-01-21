@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Open Source Metatags</title>
+    <link rel="stylesheet" href="{{ site.path }}/stylesheets/styles.css">
+    <link rel="stylesheet" href="{{ site.path }}/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!-- Eat your own damn dogfood -->
+    <meta property="os:repo" content="https://github.com/RichardLitt/open-source-metatags" />
+    <meta property="os:src" content="git@github.com:RichardLitt/open-source-metatags.git" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/open-source-metatags-200.png" title="Open Source Meta Tags" alt="Open Source Meta Tags Logo"/>
+    </div>
+    <div class="wrapper">
+
+        {{content}}
+
+        <h3>Source</h3>
+        <a class="github-button" href="https://github.com/RichardLitt/open-source-metatags" data-icon="octicon-star" data-count-href="/RichardLitt/open-source-metatags/stargazers" data-count-api="/repos/RichardLitt/open-source-metatags#stargazers_count">Star</a>
+        <a class="github-button" href="https://github.com/RichardLitt/open-source-metatags" data-icon="octicon-git-branch" data-count-href="/RichardLitt/open-source-metatags/network" data-count-api="/repos/RichardLitt/open-source-metatags#forks_count">Fork</a>
+        <p>This project is maintained by <a href="https://github.com/RichardLitt">RichardLitt</a>.</p>
+    </div>
+
+    <script src="javascripts/scale.fix.js"></script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-4124866-28");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
