@@ -14,7 +14,7 @@ This is not a place to link to code that is described on your website; rather, t
 
 The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/), which in turn is based on [RDFa](https://en.wikipedia.org/wiki/RDFa). `os` stands for "open source".
 
-The following `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`: `<link rel="profile" href="https://github.com/RichardLitt/open-source-protocol/" />`. Note: This URI may change if this protocol is accepted enough to warrant a new domain. 
+A `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`.
 
 ###Example
 
