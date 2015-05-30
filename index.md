@@ -2,11 +2,11 @@
 layout: index
 ---
 
-# Open Source Metatags
+# Open Source Protocol
 
 ###About
 
-The Open Source Metatag is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository on the public internet.
+The Open Source Protocol is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository on the public internet.
 
 To include an open source metatag on your website, simply add `<meta />` tags for the following properties:
 
@@ -18,15 +18,15 @@ This is not a place to link to code that is described on your website; rather, t
 
 The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/), which in turn is based on [RDFa](https://en.wikipedia.org/wiki/RDFa). `os` stands for "open source".
 
-The following `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`: `<link rel="profile" href="https://github.com/RichardLitt/open-source-metatags/" />`. Note: This URI may change if this protocol is accepted enough to warrant a new domain. 
+The following `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`: `<link rel="profile" href="https://github.com/RichardLitt/open-source-protocol/" />`. Note: This URI may change if this protocol is accepted enough to warrant a new domain. 
 
 ###Example
 
 ```html
-<link rel="profile" href="https://github.com/RichardLitt/open-source-metatags/" />
-<meta property="os:repo" content="https://github.com/RichardLitt/open-source-metatags" />
+<link rel="profile" href="https://github.com/RichardLitt/open-source-protocol/" />
+<meta property="os:repo" content="https://github.com/RichardLitt/open-source-protocol" />
 <meta property="os:rcs_type" content="git" />
-<meta property="os:src" content="git@github.com:RichardLitt/open-source-metatags.git" />
+<meta property="os:src" content="git@github.com:RichardLitt/open-source-protocol.git" />
 ```
 
 ###Optional tags
@@ -39,7 +39,7 @@ Other tags that can be used:
 ####Examples 
 
 ```html
-<meta property="os:issue" content="https://github.com/RichardLitt/open-source-metatags/issues" />
+<meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
 <meta property="os:commit" content="1sda73d" />
 ```
 
@@ -52,4 +52,4 @@ For use in the repository, to show your compliance and spread the word:
 
 ###Contribute
 
-This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-metatags/issues) to discuss how the Open Source Metatags can be improved. PRs are encouraged!
+This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-protocol/issues) to discuss how the Open Source Protocol can be improved. PRs are encouraged!
