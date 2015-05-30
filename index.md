@@ -56,3 +56,5 @@ For use in the repository, to show your compliance and spread the word:
 ###Contribute
 
 This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-protocol/issues) to discuss how the Open Source Protocol can be improved. PRs are encouraged!
+
+To automatically copy `README.md` from `master` to `gh-pages`, use the hook on `gh-pages` in `dev`. (_Note: It doesn't like `git add -p`_).
