@@ -4,7 +4,7 @@
 
 The Open Source Protocol is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository on the public internet.
 
-The OS Protocol uses metatags. To include an open source metatag on your website, simply add `<meta />` tags for the following properties:
+To include an open source metatag on your website, simply add `<meta />` tags for the following properties:
 
 * `os:repo` - This should be a link to the repository web page, for instance the project page on GitHub, Bitbucket, or Sourceforge.
 * `os:rcs_type` - This should be the name of the revision control system used, for instance Git, Mercurial, Bazaar.
