@@ -19,7 +19,7 @@ The following `link` element must be added in order to adhere to the standard. T
 ###Example
 
 ```html
-<link rel="profile" href="https://github.com/RichardLitt/open-source-protocol/" />
+<link rel="profile" href="http://osprotocol.com" />
 <meta property="os:repo" content="https://github.com/RichardLitt/open-source-protocol" />
 <meta property="os:rcs_type" content="git" />
 <meta property="os:src" content="git@github.com:RichardLitt/open-source-protocol.git" />
