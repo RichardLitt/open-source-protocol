@@ -1,8 +1,3 @@
----
-layout: index
----
-
-
 # Open Source Protocol
 
 ###About
@@ -36,12 +31,14 @@ Other tags that can be used:
 
 * `os:issue` - This links to a place to report issues for the website.
 * `os:commit` - This is the commit id that the current site is based upon, as that may not always be the same as HEAD.
+* `os:branch` - This is the branch where the live code for the website lives.
 
 ####Examples 
 
 ```html
 <meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
 <meta property="os:commit" content="1sda73d" />
+<meta property="os:branch" content="gh-pages" />
 ```
 
 ###Shields
