@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Open Source Protocol</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="http://osprotocol.com/stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <meta name="author" content="Richard Littauer">
+    <meta name="copyright" content="MIT &copy; Richard Littauer 2015">
+    <meta name="description" content="Open Source Protocol: Tell the world where your website lives.">
+
+    <meta property="og:description" content="Open Source Protocol: Tell the world where your website lives." />
+    <meta property="og:url" content="http://osprotocol.com/" />
+    <meta property="og:site_name" content="Open Source Protocol" />
+    <meta property="og:title" content="Open Source Protocol" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://osprotocol.com/images/open-source-protocol.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+
+    <!-- Twitter: card tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Open Source Protocol">
+    <meta name="twitter:description" content="Open Source Protocol: Tell the world where your website lives.">
+    <meta name="twitter:image" content="http://osprotocol.com/images/open-source-protocol-200.png">
+    <meta name="twitter:url" content="http://osprotocol.com">
+
+    <!-- Eat your own damn dogfood -->
+    <link rel="profile" href="https://github.com/RichardLitt/open-source-protocol/" />
+    <meta property="os:repo" content="https://github.com/RichardLitt/open-source-protocol" />
+    <meta property="os:rcs_type" content="git" />
+    <meta property="os:src" content="git@github.com:RichardLitt/open-source-protocol.git" />
+    <meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
+    <meta property="os:branch" content="gh-pages" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">
+      <img class='logo' src="images/open-source-protocol-200.png" title="Open Source Meta Tags" alt="Open Source Meta Tags Logo"/>
+    </div>
+    <div class="wrapper">
+
+        <h1>Open Source Protocol</h1>
+
+<h3>About</h3>
+
+<p>The Open Source Protocol is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository on the public internet.</p>
+
+<p>The OS Protocol uses metatags. To include an open source metatag on your website, simply add <code>&lt;meta /&gt;</code> tags for the following properties:</p>
+
+<ul>
+<li><code>os:repo</code> - This should be a link to the repository web page, for instance the project page on GitHub, Bitbucket, or Sourceforge.</li>
+<li><code>os:rcs_type</code> - This should be the name of the revision control system used, for instance Git, Mercurial, Bazaar.</li>
+<li><code>os:src</code> - This is the repository url that can be used to obtain a copy of the source.</li>
+</ul>
+
+<p>This is not a place to link to code that is described on your website; rather, this is for the code <em>for the actual website</em>. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc. - or something they want to examine - a cool paralax library, etc. - they can quickly fetch the source code.</p>
+
+<p>The <code>os</code> protocol is loosely based on the <a href="http://ogp.me/">Open Graph protocol</a>, which in turn is based on <a href="https://en.wikipedia.org/wiki/RDFa">RDFa</a>. <code>os</code> stands for &quot;open source&quot;.</p>
+
+<p>A <code>link</code> element must be added in order to adhere to the standard. This is similar to the now deprecated <code>profile</code> attribute, which used to go into the <code>&lt;HEAD /&gt;</code>.</p>
+
+<h3>Example</h3>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">&quot;profile&quot;</span> <span class="na">href=</span><span class="s">&quot;http://osprotocol.com&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:repo&quot;</span> <span class="na">content=</span><span class="s">&quot;https://github.com/RichardLitt/open-source-protocol&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:rcs_type&quot;</span> <span class="na">content=</span><span class="s">&quot;git&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:src&quot;</span> <span class="na">content=</span><span class="s">&quot;git@github.com:RichardLitt/open-source-protocol.git&quot;</span> <span class="nt">/&gt;</span>
+</code></pre></div>
+<h3>Optional tags</h3>
+
+<p>Other tags that can be used:</p>
+
+<ul>
+<li><code>os:issue</code> - This links to a place to report issues for the website.</li>
+<li><code>os:commit</code> - This is the commit id that the current site is based upon, as that may not always be the same as HEAD.</li>
+<li><code>os:branch</code> - This is the branch where the live code for the website lives.</li>
+</ul>
+
+<h4>Examples</h4>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:issue&quot;</span> <span class="na">content=</span><span class="s">&quot;https://github.com/RichardLitt/open-source-protocol/issues&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:commit&quot;</span> <span class="na">content=</span><span class="s">&quot;1sda73d&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;meta</span> <span class="na">property=</span><span class="s">&quot;os:branch&quot;</span> <span class="na">content=</span><span class="s">&quot;gh-pages&quot;</span> <span class="nt">/&gt;</span>
+</code></pre></div>
+<h3>Shields</h3>
+
+<p>For use in the repository, to show your compliance and spread the word:</p>
+
+<p><img src="https://img.shields.io/badge/OSMT-passing-green.svg" alt="passing"> https://img.shields.io/badge/OSMT-passing-green.svg<br>
+<img src="https://img.shields.io/badge/OSMT-failing-red.svg" alt="failing"> https://img.shields.io/badge/OSMT-failing-red.svg</p>
+
+<h3>Contribute</h3>
+
+<p>This is a work in progress. Please open an <a href="https://github.com/RichardLitt/open-source-protocol/issues">issue</a> to discuss how the Open Source Protocol can be improved. PRs are encouraged!</p>
+
+<p>To automatically copy <code>README.md</code> from <code>master</code> to <code>gh-pages</code>, use the hook on <code>gh-pages</code> in <code>dev</code>. (<em>Note: It doesn&#39;t like <code>git add -p</code></em>).</p>
+
+
+        <h3>Source</h3>
+        <a class="github-button" href="https://github.com/RichardLitt/open-source-protocol" data-icon="octicon-star" data-count-href="/RichardLitt/open-source-protocol/stargazers" data-count-api="/repos/RichardLitt/open-source-protocol#stargazers_count">Star</a>
+        <a class="github-button" href="https://github.com/RichardLitt/open-source-protocol" data-icon="octicon-git-branch" data-count-href="/RichardLitt/open-source-protocol/network" data-count-api="/repos/RichardLitt/open-source-protocol#forks_count">Fork</a>
+        <p>This project is maintained by <a href="https://github.com/RichardLitt">RichardLitt</a>.</p>
+    </div>
+
+    <script src="javascripts/scale.fix.js"></script>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+      try {
+      var pageTracker = _gat._getTracker("UA-4124866-28");
+      pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+    <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
