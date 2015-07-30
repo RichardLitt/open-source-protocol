@@ -10,6 +10,8 @@ The OS Protocol uses metatags. To include an open source metatag on your website
 * `os:rcs_type` - This should be the name of the revision control system used, for instance Git, Mercurial, Bazaar.
 * `os:src` - This is the repository url that can be used to obtain a copy of the source.
 
+If there's separate custom code for a server (for example, a server written using [node.js](https://nodejs.org)), and the code for which doesn't include the website content source as a submodule or mention it in some other way, then the tags `os:server:*` can be used to separately specify the server code. Here \* denotes all the other os:* tag subtypes specified in this document.
+
 This is not a place to link to code that is described on your website; rather, this is for the code _for the actual website_. That way, if anyone reading your website sees an error - a spelling mistake, broken CSS, etc. - or something they want to examine - a cool paralax library, etc. - they can quickly fetch the source code.
 
 The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/), which in turn is based on [RDFa](https://en.wikipedia.org/wiki/RDFa). `os` stands for "open source".
@@ -33,7 +35,7 @@ Other tags that can be used:
 * `os:commit` - This is the commit id that the current site is based upon, as that may not always be the same as HEAD.
 * `os:branch` - This is the branch where the live code for the website lives.
 
-####Examples 
+####Examples
 
 ```html
 <meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
