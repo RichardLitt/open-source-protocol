@@ -37,8 +37,9 @@ Other tags that can be used:
 * `os:issue` - This links to a place to report issues for the website.
 * `os:commit` - This is the commit id that the current site is based upon, as that may not always be the same as HEAD.
 * `os:branch` - This is the branch where the live code for the website lives.
+* `os:server:*` - If there's separate custom code for a server (for example, a server written using [node.js](https://nodejs.org)), and the code for which doesn't include the website content source as a submodule or mention it in some other way, then the tags `os:server:*` can be used to separately specify the server code. Here \* denotes all the other `os:*` tag subtypes specified in this document.
 
-####Examples 
+####Examples
 
 ```html
 <meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
