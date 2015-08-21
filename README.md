@@ -53,6 +53,7 @@ For use in the repository, to show your compliance and spread the word:
 
 This is a list of wesbites which have adopted this protocol. If you know of any others, please add them here.
 
+* [angular-meteor](http://angular-meteor.com/)
 * [burntfen.com](http://burntfen.com)
 
 ###Contribute
