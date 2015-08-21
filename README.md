@@ -49,6 +49,12 @@ For use in the repository, to show your compliance and spread the word:
 ![passing](https://img.shields.io/badge/OSMT-passing-green.svg) https://img.shields.io/badge/OSMT-passing-green.svg  
 ![failing](https://img.shields.io/badge/OSMT-failing-red.svg) https://img.shields.io/badge/OSMT-failing-red.svg
 
+###Participating Websites
+
+This is a list of wesbites which have adopted this protocol. If you know of any others, please add them here.
+
+* [burntfen.com](http://burntfen.com)
+
 ###Contribute
 
 This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-protocol/issues) to discuss how the Open Source Protocol can be improved. PRs are encouraged!
