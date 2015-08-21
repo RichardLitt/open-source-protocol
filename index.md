@@ -66,4 +66,6 @@ This is a list of wesbites which have adopted this protocol. If you know of any 
 
 This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-protocol/issues) to discuss how the Open Source Protocol can be improved. PRs are encouraged!
 
+If you use the OSProtocol, please add your site above. Also, tell your friends.
+
 To automatically copy `README.md` from `master` to `gh-pages`, use the hook on `gh-pages` in `dev`. (_Note: It doesn't like `git add -p`_).
