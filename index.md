@@ -51,16 +51,22 @@ Other tags that can be used:
 
 For use in the repository, to show your compliance and spread the word:
 
-![passing](https://img.shields.io/badge/OSMT-passing-green.svg) https://img.shields.io/badge/OSMT-passing-green.svg  
-![failing](https://img.shields.io/badge/OSMT-failing-red.svg) https://img.shields.io/badge/OSMT-failing-red.svg
+![passing](https://img.shields.io/badge/OSMT-passing-green.svg) [https://img.shields.io/badge/OSMT-passing-green.svg](https://img.shields.io/badge/OSMT-passing-green.svg)  
+![failing](https://img.shields.io/badge/OSMT-failing-red.svg) [https://img.shields.io/badge/OSMT-failing-red.svg](https://img.shields.io/badge/OSMT-failing-red.svg)
 
 ###Participating Websites
 
-This is a list of wesbites which have adopted this protocol. If you know of any others, please add them here.
+This is a list of websites which have adopted this protocol. If you know of any others, please add them here.
 
 * [angular-meteor.com](http://angular-meteor.com/)
 * [burntfen.com](http://burntfen.com)
 * [theuserismymom.com](http://theuserismymom.com)
+
+### Related Projects
+
+Projects building on OSP:
+
+* [OSMT-extension](https://github.com/RichardLitt/osmt-extension) Chrome extension to check for OSMT compliance. _WIP_.
 
 ###Contribute
 
