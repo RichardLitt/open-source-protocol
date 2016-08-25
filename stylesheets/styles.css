@@ -268,7 +268,7 @@ footer {
 .header{
   width: 100%;
   background: #F8F8F8;
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
   -moz-box-shadow:    0px 0px 4px 0px rgba(0,0,0,0.15);
   box-shadow:         0px 0px 4px 0px rgba(0,0,0,0.15);
   padding: 4rem 0;
@@ -278,6 +278,7 @@ footer {
 img.logo {
   margin: 0 auto;
   display: block;
+  max-width: 400px;
 }
 
 code:not(.language-html) {
@@ -287,4 +288,8 @@ code:not(.language-html) {
   border: 1px solid #e5e5e5;
   overflow-x: auto;
   margin: 0px 3px;
+}
+
+.maintainer {
+  margin-top: 15px;
 }
