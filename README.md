@@ -1,6 +1,6 @@
 # Open Source Protocol
 
-###About
+### About
 
 The Open Source Protocol is a way of telling developers where to access the source code for your website, if the source code is hosted in an open source repository on the public internet.
 
@@ -16,7 +16,7 @@ The `os` protocol is loosely based on the [Open Graph protocol](http://ogp.me/),
 
 A `link` element must be added in order to adhere to the standard. This is similar to the now deprecated `profile` attribute, which used to go into the `<HEAD />`.
 
-###Example
+### Example
 
 ```html
 <link rel="profile" href="http://osprotocol.com" />
@@ -25,7 +25,7 @@ A `link` element must be added in order to adhere to the standard. This is simil
 <meta property="os:src" content="git@github.com:RichardLitt/open-source-protocol.git" />
 ```
 
-###Optional tags
+### Optional tags
 
 Other tags that can be used:
 
@@ -34,7 +34,7 @@ Other tags that can be used:
 * `os:branch` - This is the branch where the live code for the website lives.
 * `os:server:*` - If there's separate custom code for a server (for example, a server written using [node.js](https://nodejs.org)), and the code for which doesn't include the website content source as a submodule or mention it in some other way, then the tags `os:server:*` can be used to separately specify the server code. Here \* denotes all the other `os:*` tag subtypes specified in this document.
 
-####Examples
+#### Examples
 
 ```html
 <meta property="os:issue" content="https://github.com/RichardLitt/open-source-protocol/issues" />
@@ -42,14 +42,14 @@ Other tags that can be used:
 <meta property="os:branch" content="gh-pages" />
 ```
 
-###Shields
+### Shields
 
 For use in the repository, to show your compliance and spread the word:
 
 ![passing](https://img.shields.io/badge/OSMT-passing-green.svg) [https://img.shields.io/badge/OSMT-passing-green.svg](https://img.shields.io/badge/OSMT-passing-green.svg)  
 ![failing](https://img.shields.io/badge/OSMT-failing-red.svg) [https://img.shields.io/badge/OSMT-failing-red.svg](https://img.shields.io/badge/OSMT-failing-red.svg)
 
-###Participating Websites
+### Participating Websites
 
 This is a list of websites which have adopted this protocol. If you know of any others, please add them here.
 
@@ -63,7 +63,7 @@ Projects building on OSP:
 
 * [OSMT-extension](https://github.com/RichardLitt/osmt-extension) Chrome extension to check for OSMT compliance. _WIP_.
 
-###Contribute
+### Contribute
 
 This is a work in progress. Please open an [issue](https://github.com/RichardLitt/open-source-protocol/issues) to discuss how the Open Source Protocol can be improved. PRs are encouraged!
 
