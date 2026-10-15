@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this protocol, please cite it using the metadata from this file.
+type: software
+title: The Open Source Protocol
+abstract: >-
+  A protocol for declaring, in a website's HTML head, where the site's source
+  code is hosted and how to report bugs for it. Based on the Open Graph protocol.
+authors:
+  - given-names: Richard
+    family-names: Littauer
+    orcid: 'https://orcid.org/0000-0001-5428-7535'
+url: 'https://osprotocol.com'
+repository-code: 'https://github.com/RichardLitt/open-source-protocol'
+license: MIT
+date-released: '2015-01-19'
+keywords:
+  - open source
+  - metadata
+  - html
+  - protocol
